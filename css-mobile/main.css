@@ -49,18 +49,18 @@
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
 
     overflow: auto;
-    padding: 28px;
+    padding: 20px;
 }
 
 .blocks > div > .card-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .blocks > div > p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.3;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .blocks .first {
@@ -88,15 +88,15 @@
 @media (max-width: 425px) {
     .picture img {
         border-radius: 50%;
-        width: 100%;
+        width: 60%;
     }
 
     .emblem img {
-        width: 25vw;
+        width: 13vw;
     }
 
     .blocks {
-        padding-top: 8vw;
+        padding-top: 5vw;
     }
 }
 
@@ -108,5 +108,19 @@
 
     .emblem img {
         width: 10vw;
+    }
+
+    .blocks > div {
+        padding: 40px;
+    }
+
+    .blocks > div > .card-title {
+        font-size: 24px;
+    }
+
+    .blocks > div > p {
+        font-size: 20px;
+
+        padding-top: 10px;
     }
 }
