@@ -1,0 +1,43 @@
+.header {
+    grid-area: 1/1/4/25;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    background-color: rgb(255, 255, 255);
+}
+
+.header-logo {
+    grid-area: 1 / 2 / 4 / 5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-logo img {
+    width: 50%;
+}
+
+.header-menu {
+    grid-area: 1 / 9 / 4 / 12;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-menu a {
+    text-align: center;
+}
+
+.header-menu img {
+    width: 30%;
+}
+
+.header-menu > div {
+    display: none;
+}

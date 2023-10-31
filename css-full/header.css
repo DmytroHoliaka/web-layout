@@ -18,12 +18,20 @@
     overflow: hidden;
 }
 
+.header-logo img {
+    width: 30%;
+}
+
 .header-menu {
     grid-area: 2/8/3/11;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
+}
+
+.header-menu a img {
+    display: none;
 }
 
 .header-menu > div {
